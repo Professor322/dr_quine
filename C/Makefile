@@ -15,9 +15,10 @@ clean:
 fclean: clean
 	rm -f $(NAME)
 	rm -f Grace_kid.c
-	rm -f Sully_0.c
-	rm -f Sully_1.c
-	rm -f Sully_2.c
-	rm -f Sully_3.c
-	rm -f Sully_4.c
-	rm -f Sully_5.c
+	rm -f Sully_0
+	rm -f Sully_1
+	rm -f Sully_2
+	rm -f Sully_3
+	rm -f Sully_4
+	rm -f Sully_5
+re: fclean all
